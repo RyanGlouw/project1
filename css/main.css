@@ -5,3 +5,11 @@ body {
 a {
     color:  white;
 }
+table {
+    width: 300px;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid white; /* Параметры рамки */
+}
