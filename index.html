@@ -7,12 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="img/icon.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Интернет магазин спортивного питания</title>
 </head>
 
 <body>
     <header>
+        <!-- <label class="right-text" for="site-search">Search the site:</label> --> 
         <form action="#" method="POST">
+            <input class="right" type="search" id="site-search" name="q" aria-label="Search through site content"> <!-- вопрос -->
+            <button class="right">Search</button>
             <img alt="alternative text" src="img/logo.svg">
             <h1>Интернет магазин спортивного питания</h1>
             <nav>
@@ -20,9 +25,10 @@
                 <a href="sections.html">Разделы</a>
                 <a href="contacts.html">Контакты</a>
             </nav>
+            
     </header>
     <main>
-        <fieldset name="#">
+        <fieldset class="form"> <!-- тут нужно было класс делать или?-->
             <legend>Форма авторизации</legend>
             <div>
                 <input type="email" name="email" placeholder="Введите ваш email">
@@ -41,19 +47,19 @@
         <h2>Бренды</h2>
         <div class="1">
 
-            <img alt="альтернативный текст" src="img/logo_div1.jpg">
+            <img class="img" alt="альтернативный текст" src="img/logo_div1.jpg">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nostrum eveniet<br>
                 quisquam quasi sint quam ipsam atque odit praesentium, saepe corrupti<br>
             </p>
-            <a href="sections.html">Более подробно о бренде и таблица БЖУ</a>
+            <a class ="more" href="sections.html">Более подробно о бренде и таблица БЖУ</a>
         </div>
         <div class="2">
 
-            <img alt="альтернативный текст" src="img/logo_div2.jpg">
+            <img class="img" alt="альтернативный текст" src="img/logo_div2.jpg">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nostrum eveniet<br>
                 quisquam quasi sint quam ipsam atque odit praesentium, saepe corrupti<br>
             </p>
-            <a href="sections.html">Более подробно о бренде и таблица БЖУ</a>
+            <a class ="more" href="sections.html">Более подробно о бренде и таблица БЖУ</a>
         </div>
 
     </main>

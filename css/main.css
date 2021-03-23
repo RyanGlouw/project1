@@ -1,15 +1,44 @@
 body {
     background-image: url(../img/background.jpg);
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
+
+.right{
+    float:right;
+    
+}
+
+
 a {
-    color:  white;
+    color: white;
 }
+
 table {
     width: 300px;
     border-collapse: collapse;
+    background-color: white;
+    color: black;
 }
-td, th {
-    padding: 3px; /* Поля вокруг содержимого таблицы */
-    border: 1px solid white; /* Параметры рамки */
+
+td,
+th {
+    padding: 3px;
+    /* Поля вокруг содержимого таблицы */
+    border: 3px solid rgb(77, 165, 143);
+    /* Параметры рамки */
+    background-color: white;
+
+}
+.form {
+    margin-right: 89%;
+}
+.img {
+    margin-top: 10px;
+    border-radius: 25%;
+}
+.more {
+    font-size: 1rem;
+    margin: 0 0 10rem;
+    color: rgb(248, 247, 180);
 }
